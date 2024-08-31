@@ -6,6 +6,8 @@ Thank you for purchasing a turn-key Pwnagotchi! You have everything needed for y
 3. **Initial Boot:** Allow a few minutes for the initial boot process. On first boot only the device will generate unique cryptographic keys which takes several minutes. It is important to let this finish. The device will configure itself automatically and begin eating WiFi handshakes.
 
 **Basic Usage:**
+Although the Pwnagotchi will work and eat WiFi handshakes without any further customization, you will probably want to do something with those handshakes, or further customize it to not eat handshakes for your own WiFi networks. To do that you need to connect it to your computer and customize it’s configuration.
+
 1. **Connect Power:** The Pwnagotchi has two microUSB ports. The one closest to the edge is for power. If you take this around for walks and rides you will want to use a portable power source. Pwnagotchi gets bored scanning the same networks so take him out into the world with you!
 2. **Connecting via SSH:** Once powered on, connect to your Pwnagotchi via SSH via the data cable using the default credentials (username: `pi`, password: `raspberry`).
 3. **Configuration:** Customize your Pwnagotchi by editing the `config.toml` file located at `/etc/pwnagotchi/config.toml`. You can use the command `sudo nano /etc/pwnagotchi/config.toml` to make changes.
